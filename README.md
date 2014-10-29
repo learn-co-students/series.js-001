@@ -10,11 +10,6 @@ Run `npm install`
 
 Review the `series.js` file inside the `lib` directory, and then the `series.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `series.js`.
 
-## Tests
-
-Run `grunt watch` then edit your files. Grunt will watch for changes. Grunt
-will only run tests that start with `it`. When you finish passing a test,
-remove the `x` from `xit` to convert it to a runnable test.
 
 ## Background
 
@@ -31,3 +26,17 @@ And the following 4-digit series:
 
 And if you ask for a 6-digit series from a 5-digit string,
 you deserve whatever you get.
+
+## Tests
+To run the specs follow these commands:
+```shell
+# first install the new gem to run the tests
+gem sources -a http://flatiron:33west26@gems.flatironschool.com
+gem install jasmine-flatiron
+
+# to run in the command line run
+jasmine-flatiron
+
+#to run in the browser
+jasmine-flatiron -b
+```
