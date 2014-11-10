@@ -6,8 +6,6 @@ tags: arrays, slicing, nested iteration
 # Series
 ## Getting Started
 
-Run `npm install`
-
 Review the `series.js` file inside the `lib` directory, and then the `series.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `series.js`.
 
 
